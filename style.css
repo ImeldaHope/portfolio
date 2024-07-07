@@ -1,4 +1,63 @@
 body {
-    background: blue;
-  }
+  background: black;
+  color: #f4f4f2;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  color: #ddf247;
+}
   
+.nav-links {    
+  display: flex;    
+  justify-content: flex-end; 
+  list-style: none;            
+}
+
+a {
+  text-decoration: none;
+  color: #ddf247;    
+  margin: 10px; 
+}
+
+a:hover, a:active{
+  color: #f1511b;  
+}
+ 
+.hero p{
+  padding: 20px;
+
+}
+
+.title{
+  color: #f1511b;  
+  font-size: 170px;    
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding-inline: 10px;
+  box-sizing: border-box;  
+  white-space: nowrap;    
+}
+
+footer {
+  color: #f4f4f2;
+}
+
+#footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links {
+  list-style-type: none;
+  justify-content: flex-end;
+}
